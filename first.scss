@@ -1,0 +1,390 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+a
+{
+    text-decoration: none;
+    color:forestgreen;
+}
+body
+{
+    background: linear-gradient(to right   , orangered, #5ff9d5, red);
+    color:forestgreen;
+     
+    
+}
+header
+{
+    width:80%;
+    margin:2em auto;
+}
+.first:hover
+{
+	background:lightgreen;
+}	
+.one:hover
+{
+	background:lightgreen;
+}
+.first
+{
+    
+    width:100%;
+    padding:.5em 0;
+    background:azure;
+     text-shadow: 3px 2px #00ffff, 6px 3px green;
+    font-size:4.5rem;
+    font-style:italic;
+    font-weight: 400;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 30px;
+
+}
+
+nav
+{
+    border-radius: 10px;
+    margin:0 auto;
+    background:azure;
+    width:80%;
+    overflow: hidden;
+    
+    
+}
+
+.one
+{
+    font-size:2em;
+    text-align:center;
+    font-family:verdana;
+    padding:1em 0;
+    text-shadow: 3px 2px #00ffff, 6px 3px green;
+    cursor:default;
+}
+ul
+{
+    display:flex;
+    flex-wrap: nowrap;
+    
+}
+.a:hover
+{
+    color:red;
+    background:black !important;
+}
+
+
+li
+{
+    list-style-type: none;
+    width:33%;
+    margin:15px 1%;
+    text-align: center;
+    font-size:2em;
+    border:0;
+    border-top:5px solid green;
+    padding:5px 0;
+    position:relative;
+}
+
+.cennik 
+{
+    
+   
+    height:457px;
+}
+.formu
+{
+    box-sizing: border-box;
+   
+    visibility: hidden;
+    height:422px;
+}
+
+.a
+{
+     font-size:1.4rem;
+ 
+}
+input
+{
+    margin:10px 0;
+}
+input:focus
+{
+    background:black !important;
+    color:forestgreen;
+}
+input:hover
+{
+    background:linear-gradient(to left top , orangered, orange)!important;
+}
+.suma
+{
+    font-size:1.2rem;
+    margin:5px 0;
+    outline:none;
+    padding:5px;
+    color:forestgreen;
+}
+
+.cennik:hover, .cennik:hover .formu, .cennik:hover input, .cennik:hover submit
+{
+  
+    border-top:5px solid green;
+    cursor:pointer;
+    position:relative;
+    background: lightgreen;
+    visibility: visible;
+    padding:5px;
+    transition: .5s ease-out;
+}
+.formu:hover
+{
+    
+    
+    font-style: italic;
+    border: 8px solid forestgreen;
+    border-radius: 4px;
+}
+.suma:hover
+{
+    background:black !important;
+}
+.one
+{
+    font-size:60px;
+}
+.para
+{
+    text-align:center;  
+    line-height: 70px;
+    font-size: 3.4rem;
+    font-style:italic;
+    font-weight: 600;
+    text-decoration: underline azure;
+    
+}
+.wynik
+{
+    visibility: visible;
+    position:relative;
+    padding:45px 90px;
+    background:#9bc5c5;
+    
+    
+    
+    
+}
+
+
+
+button {
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  
+}
+
+.final__btn-3d-1 {
+  left:40%;
+  margin:45px 0;
+  position: relative;
+  background: #2a8e45;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  font-size: 1.4rem;
+  box-shadow: -6px 6px 0 #216d35;
+  outline: none;
+}
+
+  .final__btn-3d-1:hover {
+    background: #2db551;
+  }
+
+  .final__btn-3d-1:active {
+    background: #216d35;
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 #216d35;
+       left:40%;
+  margin:45px 0;
+  }
+
+  .final__btn-3d-1::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+   
+    border: solid 6px transparent;
+
+
+    border-right: solid 6px #216d35;
+
+   
+    border-left-width: 0px;
+
+    background: none;
+    top: 0px;
+
+ 
+    left: -6px;
+  }
+
+  .final__btn-3d-1::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    border: solid 6px transparent;
+    border-top: solid 6px #216d35;
+    border-bottom-width: 0px;
+    background: none;
+    right: 0;
+    bottom: -6px;
+  }
+
+    .final__btn-3d-1:active::before {
+      border: solid 3px transparent;
+      border-right: solid 3px #216d35;
+      border-left-width: 0px;
+      left: -3px;
+    }
+
+    .final__btn-3d-1:active::after {
+      border: solid 3px transparent;
+      border-top: solid 3px #216d35;
+      border-bottom-width: 0px;
+      bottom: -3px;
+    }
+
+.grafika_0
+{
+    margin-top:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transform: translateY(110px);
+    width: 150px;
+    height:90px;
+    
+  
+   
+    
+}
+.i
+{
+    transform: translateY(110px);
+}
+.grafika
+{
+    margin-top:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   
+    width: 150px;
+    height:90px;
+    
+  
+   
+    
+}
+
+
+.zero
+{
+    font-size:20px;
+   
+    text-align: center;
+}
+
+
+.click:hover
+{
+    background:red;
+    color:red;
+    
+}
+.warzywa-div
+{
+     visibility: hidden;
+}
+
+
+
+.warzywa:hover, .warzywa:hover .warzywa-div
+{
+    border-top:5px solid green;
+    cursor:pointer;
+    position:relative;
+    background: lightgreen;
+    visibility: visible;
+    padding:5px;
+    transition: .5s ease-out;
+    
+}
+
+.warzywa
+{
+    height:470px;
+    box-sizing: border-box;
+}
+.warzywa-div
+{
+    height:420px;
+    box-sizing: border-box;
+}
+.warzywa-div:hover
+{
+    background: lightgreen !important;
+    color:red;
+    font-style: italic;
+    border: 8px solid forestgreen;
+    border-radius: 4px;
+    
+}
+h4
+{
+    visibility: hidden;
+}
+
+.ziele
+{
+    height:450px;
+}
+
+
+.ziele:hover, .ziele:hover .e
+{
+    border-top:5px solid green;
+    cursor:pointer;
+    position:relative;
+    background: lightgreen;
+    visibility: visible;
+    padding:5px;
+    transition: .5s ease-out;
+    
+    
+}
+h4
+{
+    height:415px;
+   
+    box-sizing: border-box;
+}
+h4:hover
+{
+    background: lightgreen !important;
+    color:red;
+    font-style: italic;
+    border: 8px solid forestgreen;
+    border-radius: 4px;
+   
+    
+}

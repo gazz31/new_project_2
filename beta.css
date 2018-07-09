@@ -1,0 +1,209 @@
+*
+{
+    
+    margin:0;
+    padding:0;
+    
+}
+
+a
+{
+    
+    text-decoration: none;
+    color:forestgreen;
+    
+}
+
+body
+{
+    
+    background: linear-gradient(to right   , orangered, #5ff9d5, red);
+    color:forestgreen;
+       
+}
+
+header
+{
+    
+    display: block;
+    margin:2em auto;
+    width:80%;
+    
+}
+
+header a
+{
+    
+    margin:0;
+    padding:0;
+    
+}
+
+
+header a .first
+{
+    
+    width:100%;
+    padding:.5em 0;
+    background:azure;
+    text-shadow: 3px 2px #00ffff, 6px 3px green;
+    font-size:4.5rem;
+    font-style:italic;
+    font-weight: 400;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 30px;
+    
+}
+
+header a .first:hover
+{
+    
+    background:lightgreen;
+ 
+}
+
+
+section
+{
+    
+    display: block;
+    margin:2em auto 0 auto;
+    width:80%;
+    
+}
+
+section .one 
+{
+    display:block;
+    font-size:2em;
+    text-align:center;
+    font-family:verdana;
+    padding:1em 0;
+    text-shadow: 3px 2px #00ffff, 6px 3px green;
+    cursor:default;
+    border-radius: 10px;
+    margin:0 auto;
+    background:azure;
+    width:100%;
+    
+}
+section .one:hover
+{
+    
+    background:lightgreen;
+      
+}
+
+nav
+{
+    
+    border-radius: 10px;
+    margin:2em auto 1em auto;
+    background:azure;
+    width:80%;
+    cursor:pointer;
+
+}
+nav:hover
+{
+	background:black;
+}
+nav ul
+{
+    display:flex;
+    flex-wrap: nowrap;
+    width:100%;
+    padding-bottom:-90px;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    width:33%;
+    margin:15px 1%;
+    text-align: center;
+    font-size:2em;
+    border:0;
+    border-top:5px solid green;
+    padding:5px 0;
+    position:relative;
+}
+
+
+
+nav ul .ziele .e
+{
+    visibility: hidden;
+}
+
+
+
+nav ul .ziele:hover, nav ul .ziele:hover .e
+{
+    border-top:5px solid green;
+    cursor:pointer;
+    position:relative;
+    background: lightgreen;
+    visibility: visible;
+    padding:5px;
+    transition: .5s ease-in;
+    
+    
+}
+
+
+nav ul .ziele .e .grafika_0
+{
+    
+    background-image: url(grafika/definicje.jpg);
+    background-size: cover;
+    margin-top:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transform: translateY(40px);
+    width: 150px;
+    height:120px;
+     
+}
+
+nav ul .ziele .e .i
+{
+   
+    transform: translateY(60px);    
+    text-align: center;
+    margin:0 auto;
+      
+}
+
+nav ul .warzywa
+{
+    
+    
+   
+}
+nav ul .warzywa
+{
+    
+}
+.warzywa-div
+{
+     visibility: hidden;
+}
+
+
+
+.warzywa:hover, .warzywa:hover .warzywa-div
+{
+    border-top:5px solid green;
+    cursor:pointer;
+    position:relative;
+    background: lightgreen;
+    visibility: visible;
+    padding:5px;
+    transition: .5s ease-out;
+    
+}
+
+
+

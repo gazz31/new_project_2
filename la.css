@@ -1,0 +1,135 @@
+* 
+{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+html 
+{
+    
+    min-height: 100%;
+    
+}
+
+body 
+{
+    
+    background: radial-gradient(yellow, orangered, yellow, red, yellow, orangered, yellow);
+    color: forestgreen;
+
+}
+a 
+{
+    
+    text-decoration: none;
+    color: forestgreen;
+    
+}
+
+@media only screen (min-width:720px)and (max-width:1279px)  
+{
+    
+    header
+    {
+        
+        display: block;
+        box-sizing: border-box;
+        width: 80%;
+        margin: 2em auto 0 auto;
+        
+    }
+    
+    header .first
+    {
+        
+        width: 100%;
+        padding: .5em 0;
+        background: black;
+        text-shadow: 3px 2px #00ffff, 6px 3px green;
+        font-size: 4.5rem;
+        font-style: italic;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        letter-spacing: 30px;
+        
+    }
+    
+    
+    nav
+    {
+        
+        border-radius: 10px;
+        margin: 2em auto;
+        background: black;
+        width: 80%;
+        overflow: hidden;
+        box-sizing: border-box;
+              
+    }
+    nav .one
+    {
+        
+        font-size: 2em;
+        text-align: center;
+        font-family: verdana;
+        padding: 30px 0;
+        text-shadow: 3px 2px #00ffff, 6px 3px green;
+        cursor: default;
+        
+    }
+    nav .clock 
+    {
+        
+        line-height: 55px;
+        text-align: center;
+        margin: 10px auto 0px auto;
+        color: forestgreen;
+        font-size: 1rem;
+        font-style: italic;
+        background: black;
+        width: 111%;
+        border: 5px solid forestgreen;
+        cursor: wait;
+
+    }
+    
+    nav .clock:hover 
+    {
+        background: lightgreen;
+     
+    }
+    
+    ul
+    {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    ul .ziele
+    {
+        
+        height: 450px;
+      
+    }
+    
+    ul .ziele:hover, .ziele:hover h4
+    {
+        
+        border-top: 5px solid green;
+        cursor: pointer;
+        position: relative;
+        background: lightgreen;
+        visibility: visible;
+        padding: 5px;
+        transition: .5s ease-out;
+
+    }
+   
+    
+    
+    
+    
+}
